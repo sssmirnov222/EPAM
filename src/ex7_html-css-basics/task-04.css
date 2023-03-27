@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+body {
+    background: rgba(22, 190, 196, 0.822);
+    max-width: 1200px;
+    display: block;
+    
+}
+.color {
+    background: green;
+  }
+  img {
+      width: 200px;
+      height: 100px;
+  }
+
+.h1_style {
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1651049765_21-vsegda-pomnim-com-p-morskoi-zakat-foto-25.jpg);
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.h2_style h2{
+    margin-left: 20px;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background: rgb(0, 89, 255);
+}
+
+.h3_style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+    background: red;
+}
+
+.h3_style > li:nth-child(odd) {
+    background: rgb(0, 255, 128);
+}
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+
+table tr:nth-child(odd) {
+    background: rgb(0, 255, 128);
+}

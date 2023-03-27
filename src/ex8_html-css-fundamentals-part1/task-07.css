@@ -1,0 +1,77 @@
+
+/* 1 способ */
+/* .kvad {
+    background: green;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 10px 10px 5px rgb(2, 2, 2), 10px 15px 15px 10px rgba(202, 224, 5, 0.925) ;
+
+} */
+
+/* 2 способ */
+/* .kvad {
+    background: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.rav {
+    background: black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.rim {
+    position: absolute;
+    background: blue;
+    height: 200px;
+    width: 200px;
+    z-index: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+} */
+
+/* 3 способ */
+/* body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: green;
+    position: relative;
+}
+
+div ::after {
+    content: '';
+    background-color: black;
+   position: absolute;
+   left: -20px;
+   top: -20px;
+ 
+   width: 200px;
+   height: 200px;
+}
+
+div ::before {
+    content: '';
+    background-color: blue;
+   position: absolute;
+
+   left: -10px;
+   top: -10px;
+ 
+   width: 200px;
+   height: 200px;
+} */
+

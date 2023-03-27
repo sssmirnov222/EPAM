@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+.personal {
+border: 2px solid grey;
+height: 570px;
+width: 1200px;
+margin-top: 20px;
+
+}
+.personal > h4 {
+    margin-top: -10px;
+    margin-left: 10px;
+    background: white;
+    width: 95px;
+}
+.block {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.input_style {
+    width: 60px;
+}
+select {
+    width: 60px;
+}
+.auto {
+    width: 220px;
+    height: 125px;
+    overflow: auto;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+.ulov {
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-weight: 700%;
+}
+.auto > ul {
+   list-style-type: none;
+}
+.tit {
+    margin-top: 110px;
+}
+.asas {
+    display: flex;
+}
+.rom {
+    height: 100px;
+    width: 300px;
+    
+}
+span {
+    font-size: 12px;
+}
+ul > li {
+    text-decoration: none;
+}
+
+.Salary {
+  height: 2px;
+}
+#fader ::-webkit-slider-thumb {
+    height: 10px;
+}
+
+
+
+    
+
+
+.contact {
+    border: 2px solid grey;
+    height: 140px;
+    margin-top: 20px;
+    width: 1200px;
+}
+.contact > h4 {
+    margin-top: -10px;
+    margin-left: 10px;
+    background: white;
+    width: 145px;
+}
+
+
+.password {
+
+}

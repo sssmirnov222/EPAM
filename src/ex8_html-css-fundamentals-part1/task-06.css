@@ -1,0 +1,34 @@
+
+
+div {
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+} 
+
+button {
+    height: 70px;
+    width: 240px;
+    border-radius: 14px 14px 14px 14px;
+    background: rgb(175, 153, 153) ;
+}
+
+p {
+    font-size: 20px;
+}
+
+.st {
+    height: 50px;
+    width: 220px;
+    border: 2px solid grey;
+    display: flex;
+    margin: auto;
+    border-radius:14px 14px 14px 14px ;
+    background:rgb(221, 217, 217);
+}
+
+img {
+    height: 20px;
+    
+}
