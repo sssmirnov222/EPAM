@@ -1,0 +1,151 @@
+body {
+  background: rgb(221, 206, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+    width: 350px;
+    height: 270px;
+    border: 2px solid grey;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+.header {
+    background: rgb(238, 234, 234);
+    padding-top: 3px;
+    
+}
+
+.pi {
+    margin-top: 0px;
+    width: 290px;
+    border: 2px solid white;
+    height: 30px;
+}
+
+
+.input {
+    display: flex;
+    height: 30px;
+    width: 20px;
+    
+}
+.price {
+    width: 110px;
+    border: 2px solid white;
+    height: 30px;
+}
+.Specific {
+    width: 200px;
+    border: 2px solid white;
+    height: 30px;
+}
+.hr {
+    height: 0,1px;
+    background: white;
+    border: 2px solid white;
+}
+
+
+.top {
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+.lab {
+    display: flex;
+}
+.lab > input {
+    position: relative;
+}
+.lab > label {
+    position: absolute;
+    padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+}
+
+.Tit {
+    display: flex;
+    background: white;
+    width: 100%;
+}
+.Tit > input {
+    position: relative;
+    width: 100%
+}
+.Tit > label {
+    position: absolute;
+    padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+    
+}
+
+.Spe {
+    display: flex;
+    width: 100%;
+    
+}
+.Spe > input {
+    position: relative;
+    width: 100%
+}
+.Spe > label {
+    position: absolute;
+    padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+    background: white;
+    width: 225px;
+    height: 32px
+}
+
+.Des {
+    display: flex;
+    background: white;
+    width: 100%
+}
+.Des > input {
+    position: relative;
+    width: 100%
+}
+.Des > label {
+    position: absolute;
+    padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+    animation: z 2s linear infinite;
+}
+
+@keyframes z {
+    0% {
+   padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+    }
+
+    100% {
+        padding-top: 0px;
+        font-size: 14px;
+        color: blue;
+    }
+    
+}
