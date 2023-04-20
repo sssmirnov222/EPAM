@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background: rgb(206, 202, 202);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slider {
+    height: 320px;
+    width: 400px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.slider-line {
+   display: flex;
+   width: 400px;
+}
