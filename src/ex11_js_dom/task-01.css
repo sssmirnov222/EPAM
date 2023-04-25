@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(170, 167, 167);
+    width: 1000px;
+}
+.slider {
+     border: 2px solid black;
+     width: 600px;
+     height: 400px;
+     overflow: hidden;
+}
+
+.slider-line {
+     display: flex;
+     transition: 1s;
+}
+button:hover {
+    box-shadow: 2px 2px 2px blue;
+}
